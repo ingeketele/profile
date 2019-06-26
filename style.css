@@ -1,0 +1,93 @@
+body{
+  background: rgb(223,202,202);
+  font-size: 25px;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: lighter;
+  color: white;
+}
+
+h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
+}
+
+h1, h3 {
+  margin: 0;
+  text-shadow: 5px 5px 10px black;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/blossom-branch-desktop-backgrounds-2101187.jpg");
+  background-size: cover;
+  padding: 15px;
+  margin: auto;
+  align-items: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #525252;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  background-color: rgb(223,202,202);
+  border: 2px solid white;
+  margin: 10px auto 0 auto;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(223,202,202);
+  border: none;
+}
+
+.fas {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.contact {
+  display: inline;
+}
+
+.list-inline {
+  display: inline;
+}
+
+.list-inline li {
+  display: inline;
+}
+
