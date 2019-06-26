@@ -16,6 +16,10 @@ h1, h3 {
   text-shadow: 5px 5px 10px black;
 }
 
+h2 {
+  margin: 0;
+}
+
 p {
   font-size: 20px;
 }
@@ -76,7 +80,14 @@ a:hover {
 .fas {
     color: white;
     font-size: 50px;
-    padding: 20px;
+    padding: 10px;
+}
+
+.mini-avatar {
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 8px white inset;
+  margin: 0 auto;
 }
 
 .contact {
