@@ -1,0 +1,35 @@
+
+.footer {
+  text-align: center;
+  background-color: #525252;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+.footer.contact{
+  padding: 0;
+}
+
+.contact {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.list-inline {
+  display: inline;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 12px;
+}
+
+
+.fas {
+    color: white;
+    padding: 10px;
+}

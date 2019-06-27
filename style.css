@@ -1,5 +1,8 @@
+@import url('components/card.css');
+@import url('components/avatar.css');
+@import url('components/footer.css');
+
 body{
-  background: rgb(223,202,202);
   font-size: 25px;
   font-family: 'Cutive Mono', monospace;
   font-weight: lighter;
@@ -9,6 +12,7 @@ body{
 h1{
   font-family: 'Poiret One', cursive;
   font-size: 60px;
+  margin: 8px;
 }
 
 h1, h3 {
@@ -21,7 +25,9 @@ h2 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
+  padding: 24px;
+  margin: 8px;
 }
 
 a {
@@ -30,75 +36,5 @@ a {
 
 a:hover {
   color: white;
-}
-
-#avatar {
-  width: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 8px 8px white inset;
-}
-
-#banner{
-  text-align: center;
-  background-image: url("images/blossom-branch-desktop-backgrounds-2101187.jpg");
-  background-size: cover;
-  padding: 15px;
-  margin: auto;
-  align-items: center;
-}
-
-#footer {
-  text-align: center;
-  background-color: #525252;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-}
-
-.btn {
-  color: white;
-  font-size: 20px;
-  padding: 8px;
-  background-color: rgb(223,202,202);
-  border: 2px solid white;
-  margin: 10px auto 0 auto;
-  text-decoration: none;
-}
-
-.btn:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-.card {
-  text-align: center;
-  background-color: rgb(223,202,202);
-  border: none;
-}
-
-.fas {
-    color: white;
-    font-size: 50px;
-    padding: 10px;
-}
-
-.mini-avatar {
-  width: 70px;
-  border-radius: 50%;
-  box-shadow: 0 0 8px 8px white inset;
-  margin: 0 auto;
-}
-
-.contact {
-  display: inline;
-}
-
-.list-inline {
-  display: inline;
-}
-
-.list-inline li {
-  display: inline;
 }
 
